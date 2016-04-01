@@ -9,10 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * {@link ForecastAdapter} exposes a list of weather forecasts
- * from a {@link Cursor} to a {@link android.widget.ListView}.
- */
+
 public class ForecastAdapter extends CursorAdapter {
 
     private static final int VIEW_TYPE_COUNT = 2;
